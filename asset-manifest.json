@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/todo/static/css/main.b43b69b3.chunk.css",
+    "main.js": "/todo/static/js/main.ba1715e0.chunk.js",
+    "main.js.map": "/todo/static/js/main.ba1715e0.chunk.js.map",
+    "runtime-main.js": "/todo/static/js/runtime-main.7e6aba43.js",
+    "runtime-main.js.map": "/todo/static/js/runtime-main.7e6aba43.js.map",
+    "static/js/2.715d46c1.chunk.js": "/todo/static/js/2.715d46c1.chunk.js",
+    "static/js/2.715d46c1.chunk.js.map": "/todo/static/js/2.715d46c1.chunk.js.map",
+    "index.html": "/todo/index.html",
+    "static/css/main.b43b69b3.chunk.css.map": "/todo/static/css/main.b43b69b3.chunk.css.map",
+    "static/js/2.715d46c1.chunk.js.LICENSE.txt": "/todo/static/js/2.715d46c1.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/todo/static/media/Gradient-Mesh-15.8b943e5e.jpg",
+    "static/media/cubs.824d3665.png": "/todo/static/media/cubs.824d3665.png",
+    "static/media/edit.9bab60f1.svg": "/todo/static/media/edit.9bab60f1.svg",
+    "static/media/trash.7a30f140.svg": "/todo/static/media/trash.7a30f140.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7e6aba43.js",
+    "static/js/2.715d46c1.chunk.js",
+    "static/css/main.b43b69b3.chunk.css",
+    "static/js/main.ba1715e0.chunk.js"
+  ]
+}
