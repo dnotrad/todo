@@ -1,0 +1,80 @@
+.modal{
+    opacity: 0;
+    z-index: 5;
+    padding: 32px 15px;
+    position: fixed;
+    min-width: 320px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    background: rgba( 255, 255, 255, 0.4 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 15px;
+
+    transition:  .1s linear;
+}
+.modal.active{
+    opacity: 1;
+}
+
+.title{
+    font-weight: 500;
+    font-size: 45px;
+    color: #240856;
+
+    margin-bottom: 76px;
+}
+.input{
+    padding: 11px 21px ;
+    width: 80%;
+    height: 45px;
+    background: #FFFFFF;
+    opacity: 0.6;
+    border-radius: 15px;
+
+    font-size: 20px;
+    color: #000000;
+
+    margin-bottom: 87px;
+}
+.button{
+    margin: 0 45px;
+    padding: 11px 33px;
+    font-size: 20px;
+    color: #240856;
+    min-width: 157px;
+    border-radius: 15px;
+    background: #CCF8FE;
+}
+
+.button.cancel{
+    background: #D0E0FC;
+}
+
+.button.delete{
+    background: #daa7e3;
+}
+
+@media(max-width: 1100px){
+    .button{
+        margin: 0 35px;
+        padding: 11px 25px;
+        min-width: 130px;
+    }
+}
+
+@media(max-width: 900px){
+    .button{
+        margin: 0 15px;
+        padding: 11px 15px;
+        min-width: 100px;
+    }
+}
+
+@media(max-width: 800px){
+    .title{
+        font-size: 36px;
+    } 
+}

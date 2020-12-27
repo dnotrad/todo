@@ -1,0 +1,42 @@
+.todo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 24px;
+    width: 411px;
+    height: 46px;
+    background: rgba( 255, 255, 255, 0.4 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 15px;
+    text-align: left;
+    margin-bottom: 13px;
+}
+
+.text{
+    font-weight: 500;
+    font-size: 18px;
+    color: #240856;
+}
+.buttons{
+    display: flex;
+}
+.button{
+    cursor: pointer;
+    width: 31px;
+    height: 31px;
+    margin-right: 10px;
+}
+.button:last-child{
+    margin-right: 0;
+}
+.button img{
+    max-width: 100%;
+}
+
+@media (max-width:500px){
+    .todo{
+        width: 321px;
+    }
+    
+}
