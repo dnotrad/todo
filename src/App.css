@@ -38,6 +38,7 @@ body{
   font-family: 'Roboto', sans-serif;
   background: url('./assets/img/Gradient-Mesh-15.jpg') center;
   background-size: cover;
+	background-attachment: fixed;
 }
 .main{
   padding-top: 80px;
